@@ -1,0 +1,10 @@
+//Go to Tools->Devolopper->new_template
+
+Now, remove the 3rd line(sublimetext3) and in that line (i.e b/w <![CDATA[ and ]]>) add the code or small piece of code snippet which u want to write in every file.
+Now, save that(as .sublime-snippet)
+
+actions:
+->u can restrict this to the specific language (can add each different template for ech language) by uncommenting just before the last line or 4th ine after </content> tag
+->Tab Trigger: u can use this so that whenever u want to use that code snippet u can write a word and get that replaced by the code snippet (add that word in 2nd line after </content> tag
+
+Done :)
